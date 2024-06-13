@@ -2,6 +2,7 @@
   "name": "elementary-javascript",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "vitest"
   },
@@ -9,10 +10,11 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@virtual-live-lab/eslint-config": "^2.0.2",
+    "@types/node": "^20.14.2",
     "@virtual-live-lab/prettier-config": "^2.0.2",
-    "eslint": "^9.4.0",
+    "@virtual-live-lab/tsconfig": "^2.1.0",
     "prettier": "^3.3.2",
+    "typescript": "^5.4.5",
     "vitest": "^1.6.0"
   }
 }
